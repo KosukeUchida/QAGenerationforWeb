@@ -9,4 +9,6 @@ services:
             PYTHONPATH: /workspace
         volumes:
             - ..:/workspace
+        env_file:
+            - .env
         command: sleep infinity

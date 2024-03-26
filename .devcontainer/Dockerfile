@@ -8,3 +8,6 @@ RUN apt-get update && \
 
 # Install Basic Packages
 RUN pip install ipykernel jupyter
+
+ADD .devcontainer/requirements.txt /root/
+RUN pip install -r /root/requirements.txt
