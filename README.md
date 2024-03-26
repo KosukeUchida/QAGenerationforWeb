@@ -1,0 +1,2 @@
+# QAGenerationforWeb
+WikiなどのWebサイトの情報からQAペアのデータを生成するノートブック
